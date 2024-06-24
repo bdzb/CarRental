@@ -1,0 +1,65 @@
+#tbody
+{
+  margin-top: 30px;
+  display: flex;
+  position: absolute;
+  left: 5%;
+  flex-direction: column;
+  margin-left: 6%;
+  height: 100%;
+}
+
+#contentsTop
+{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.top
+{
+  font-size: 54px;
+  font-family: sans-serif;
+font-weight: bolder;
+margin-bottom: 0;
+}
+.bottom
+{
+  margin-top: 0;
+  font-size: 57px;
+color: red;
+margin-bottom: 10px;
+font-family: sans-serif;
+font-weight: bolder;
+}
+#carHome
+{
+  position: absolute;
+  top: 0px;
+  width: 60vw;
+  right: 0px;  
+}
+
+
+
+#slogan
+{
+  font-size: 20px;
+}
+#numbersTop
+{
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: 100px 150px;
+  padding-left: 0;
+}
+
+#li-r-border
+{
+   border-right: 2px solid gray ;
+}
+
+.widthTopNumbers
+{
+  margin-left: 30px;
+}
+
