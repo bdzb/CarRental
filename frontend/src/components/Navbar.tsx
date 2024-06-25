@@ -7,7 +7,7 @@ const Navbar = () => {
     <ul id="head">
     <li  ><p id="logo">CARHUB</p>
     </li>
-    <li className='navi'>Home</li>
+    <li className='navi'>Home Page</li>
     <li className='navi'>Rent Car</li>
     <li className='navi'>Sell Car</li>
     <li className='navi'>Buy Car</li>
