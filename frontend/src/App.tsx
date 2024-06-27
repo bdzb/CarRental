@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/Navbar';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Car from './Car';
+import Sign from './components/SignUp';
 function App() {
 
   return (
@@ -11,6 +13,8 @@ function App() {
           <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/car' element={<Car/>}></Route>
+        <Route path='/signUp' element={<Sign/>}></Route>
       </Routes>
     </BrowserRouter>
      

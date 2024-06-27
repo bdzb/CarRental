@@ -1,14 +1,19 @@
 #tbody {
   margin-top: 0px;
   display: flex;
-  position: absolute;
   left: 5%;
   flex-direction: column;
   margin-left: 6%;
   height: 100%;
 }
-
+#navTop
+{
+  margin-top: 5vh;
+  margin-left: 3vw;
+  margin-bottom: 7vh;
+}
 #contentsTop {
+  margin-left: 2.6vw;
   margin-top: 70px;
   display: flex;
   flex-direction: row;
@@ -33,14 +38,17 @@
 
 #rightContentTop {
   position: relative; 
-  width: 60vw;/* Ensure relative positioning for absolute children */
+  overflow-y: hidden;
+  width: 80vw;/* Ensure relative positioning for absolute children */
+  height: 40vh;
 }
 
 #carHome {
   position: absolute;
-  top: -10vh;
-  right: 0;
-  width: 80vw; /* Adjust width as needed */
+  top: -15vh;
+  right: 40px;
+  margin-bottom: 60px;
+  width: 100vw; /* Adjust width as needed */
   max-width: 100%; /* Ensure it doesn't overflow */
 }
 
@@ -53,9 +61,11 @@
   font-size: 20px;
   grid-template-columns: 100px 150px;
   padding-left: 0;
+  padding-top: 30px;
 }
 
 #li-r-border {
+ 
   border-right: 2px solid gray;
 }
 
@@ -77,7 +87,7 @@
 }
 
 .slide-in-top {
-  animation: slideInFromTop 0.5s ease-in forwards;
+  animation: slideInFromTop 1s ease-in forwards;
 }
 
 @keyframes slideInFromBottom {
@@ -92,7 +102,7 @@
 }
 
 .slide-in-bottom {
-  animation: slideInFromBottom 0.5s ease-in forwards;
+  animation: slideInFromBottom 1s ease-in-out forwards;
 }
 
 @keyframes slideInFromRight {
@@ -107,7 +117,7 @@
 }
 
 .slide-in-right {
-  animation: slideInFromRight 0.5s ease-in forwards;
+  animation: slideInFromRight 1s ease-in forwards;
 }
 
 
@@ -115,6 +125,7 @@
 {
   display: flex;
   flex-direction: column;
+  overflow-y: hidden;
 }
 
 .bigNum

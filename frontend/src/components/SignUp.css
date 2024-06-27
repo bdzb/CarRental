@@ -1,0 +1,12 @@
+#SignUpBody
+{
+  display: grid;
+  grid-template-columns: 35% 65%;
+
+}
+
+#right
+{
+  height: 100vh;
+  background-color: rgb(25, 23, 35);
+}

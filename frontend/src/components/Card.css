@@ -1,0 +1,66 @@
+#cardBody {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#cardBody:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cardImg {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#cardImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#nameCar {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 16px;
+  text-align: center;
+}
+
+#description {
+  padding: 0 16px 16px;
+}
+
+#rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+#carLocation, #CardSpecification, #cardRentPrice, #cardBuyPrice, #learnMore {
+  margin: 8px 0;
+}
+
+#cardRentPrice, #cardBuyPrice {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+#learnMore {
+  text-align: center;
+  padding: 8px 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#learnMore:hover {
+  background-color: #0056b3;
+}

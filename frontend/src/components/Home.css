@@ -35,7 +35,12 @@
   justify-content: space-between;
   align-items: center;
 }
-
+#homeBody
+{
+  display: flex;
+  flex-direction: column;
+  
+}
 
 li {
   list-style: none;
@@ -56,3 +61,17 @@ z
 }
 
 
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-top {
+  animation: slideInFromTop 1s ease-in forwards;
+}
